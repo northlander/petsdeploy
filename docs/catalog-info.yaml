@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: pets-resources
+  description: All Backstage documentation resources for Pets
+spec:
+  targets:
+    - ./pets-system.yaml
+    - https://github.com/northlander/dogs/blob/master/catalog-info.yaml
+    - https://github.com/northlander/cats/blob/master/catalog-info.yaml 

@@ -1,0 +1,7 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: pets
+  description: A pet system
+spec:
+  owner: pets-team
