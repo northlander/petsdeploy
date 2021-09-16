@@ -1,0 +1,8 @@
+project: default
+source:
+  repoURL: 'https://github.com/northlander/petsdeploy.git'
+  path: apps/cats
+  targetRevision: HEAD
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: default
